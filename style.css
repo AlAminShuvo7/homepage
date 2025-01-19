@@ -10,7 +10,7 @@
 }
 .container {
     display: flex;
-    gap: 25px;
+    gap: 22px;
     padding: 20px 20px;
     flex-wrap: wrap;
     
