@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 
 .roboto-condensed-normal {
   font-family: "Roboto Condensed", serif;
@@ -5,19 +8,50 @@
   font-weight: normal;
   font-style: normal;
 }
-.card {
-    background-color: azure;
-    width: 300px;
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px;
+    flex-wrap: wrap;
 }
-.card > h4 {
+.card {
+    background-color: #eee;
+    width: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card > a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card h4 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
 }
 
 .image {
-    width: 100px;
+    width: 50px;
+    margin-bottom: 0;
+
 }
 
 .image > img {
     width: 100%;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #222;
+}
+a:link {
+    color: #222;
 }
