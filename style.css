@@ -1,0 +1,23 @@
+
+.roboto-condensed-normal {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.card {
+    background-color: azure;
+    width: 300px;
+}
+.card > h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.image {
+    width: 100px;
+}
+
+.image > img {
+    width: 100%;
+}
